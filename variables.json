@@ -1,0 +1,92 @@
+{
+    "docsUrl": {
+        "dev": "https://docs-dev.fortellis.io",
+        "qat": "https://docs-qat.fortellis.io",
+        "demo": "https://docs-demo.fortellis.io",
+        "prod": "https://docs.fortellis.io"
+    },
+    "apiReferenceUrl": {
+        "dev": "https://apidocs-dev.fortellis.io",
+        "qat": "https://apidocs-qat.fortellis.io",
+        "demo": "https://apidocs-demo.fortellis.io",
+        "prod": "https://apidocs.fortellis.io"
+    },
+    "devNetworkUrl": {
+        "dev": "https://developer-dev.fortellis.io",
+        "qat": "https://developer-qat.fortellis.io",
+        "demo": "https://developer-demo.fortellis.io",
+        "prod": "https://developer.fortellis.io"
+    },
+    "marketplaceUrl": {
+        "dev": "https://marketplace-dev.fortellis.io",
+        "qat": "https://marketplace-qat.fortellis.io",
+        "demo": "https://marketplace-demo.fortellis.io",
+        "prod": "https://marketplace.fortellis.io"
+    },
+    "communityUrl":{
+        "dev": "https://community-dev.fortellis.io",
+        "qat": "https://community-qat.fortellis.io",
+        "demo": "https://community-demo.fortellis.io",
+        "prod": "https://community.fortellis.io"
+    },
+    "authServerUrl": {
+        "dev": "https://identity-dev.fortellis.io/oauth2/aus1ni5i9n9WkzcYa2p7",
+        "qat": "https://identity-qat.fortellis.io/oauth2/ausax07ig2eIlo3pO4x6",
+        "demo": "https://identity-demo.fortellis.io/oauth2/ausl5fngjEXkT0rMe5d6",
+        "prod": "https://identity.fortellis.io/oauth2/aus1p1ixy7YL8cMq02p7"
+    },
+    "oldAuthServerUrl":{
+        "dev": "https://api.accounts-dev.fortellis.io/oauth2/aus1uel0vyWbHyGne2p7",
+        "qat": "https://api.accounts-dev.fortellis.io/oauth2/aus1uel0vyWbHyGne2p7",
+        "demo": "https://api.accounts-dev.fortellis.io/oauth2/aus1uel0vyWbHyGne2p7",
+        "prod": "https://api.accounts.fortellis.io/oauth2/aus1ufzl27tS4FQ9X2p7"
+    },
+    "accountsServerUrl": {
+        "dev": "https://accounts-dev.fortellis.io",
+        "qat": "https://accounts-qat.fortellis.io",
+        "demo": "https://accounts-demo.fortellis.io",
+        "prod": "https://accounts.fortellis.io"
+    },
+    "subscriptionCallbackUrl": {
+        "dev": "https://subscriptions-dev.fortellis.io",
+        "qat": "https://subscriptions-qat.fortellis.io",
+        "demo": "https://subscriptions-demo.fortellis.io",
+        "prod": "https://subscriptions.fortellis.io"
+    },
+    "apiFortellisUrl": {
+        "dev": "https://api-dev.fortellis.io",
+        "qat": "https://api-qat.fortellis.io",
+        "demo": "https://api-demo.fortellis.io",
+        "prod": "https://api.fortellis.io"
+    },
+    "eventRelay": {
+        "dev": "https://event-relay-dev.fortellis.io/v2/events",
+        "qat": "https://event-relay-qat.fortellis.io/v2/events",
+        "demo": "https://event-relay-demo.fortellis.io/v2/events",
+        "prod": "https://event-relay.fortellis.io/v2/events"
+    },
+    "connectionCallbackEndpoint": {
+        "dev": "https://subscriptions-dev.fortellis.io",
+        "qat": "https://subscriptions-qat.fortellis.io",
+        "demo": "https://subscriptions-demo.fortellis.io",
+        "prod": "https://subscriptions.fortellis.io"
+    },
+    "eventRelayIntroductionBoilerPlate": {
+        "dev": "You can now create the asynchronous API producer for the asynchronous API spec that we created in [Designing an Asynchronous API](/docs/tutorials/event-relay/tutorial-design-an-async-api). With an asynchronous API producer, you can publish your events to your Subscribers so they receive near real-time data. Your asynchronous API source updates your Subscribers when your system changes. Your Subscribers don't have to continuously poll for updated data, saving time, network bandwidth, and effort.",
+        "qat": "You can now create the asynchronous API producer for the asynchronous API spec that we created in [Designing an Asynchronous API](/docs/tutorials/event-relay/tutorial-design-an-async-api). With an asynchronous API producer, you can publish your events to your Subscribers so they receive near real-time data. Your asynchronous API source updates your Subscribers when your system changes. Your Subscribers don't have to continuously poll for updated data, saving time, network bandwidth, and effort.",
+        "demo": "You can now create the asynchronous API producer for the asynchronous API spec that we created in [Designing an Asynchronous API](/docs/tutorials/event-relay/tutorial-design-an-async-api). With an asynchronous API producer, you can publish your events to your Subscribers so they receive near real-time data. Your asynchronous API source updates your Subscribers when your system changes. Your Subscribers don't have to continuously poll for updated data, saving time, network bandwidth, and effort.",
+        "prod": "You can now create the asynchronous API producer for the asynchronous API spec that we created in [Designing an Asynchronous API](/docs/tutorials/event-relay/tutorial-design-an-async-api). With an asynchronous API producer, you can publish your events to your Subscribers so they receive near real-time data. Your asynchronous API source updates your Subscribers when your system changes. Your Subscribers don't have to continuously poll for updated data, saving time, network bandwidth, and effort."
+    },
+    "eventRelayBoilerPlateWhatYouWillLearn":{
+        "dev": "In this tutorial, you should learn how to do the following:\r\r* Create an asynchronous API producer that runs locally.\r* Create a simple model to update your Subscribers with new information.\r* Have the asynchronous API producer send the payload to an endpoint.\r* Use a webhook to test your asynchronous API producer.",
+        "qat": "In this tutorial, you should learn how to do the following:\r\r* Create an asynchronous API producer that runs locally.\r* Create a simple model to update your Subscribers with new information.\r* Have the asynchronous API producer send the payload to an endpoint.\r* Use a webhook to test your asynchronous API producer.",
+        "demo": "In this tutorial, you should learn how to do the following:\r\r* Create an asynchronous API producer that runs locally.\r* Create a simple model to update your Subscribers with new information.\r* Have the asynchronous API producer send the payload to an endpoint.\r* Use a webhook to test your asynchronous API producer.",
+        "prod": "In this tutorial, you should learn how to do the following:\r\r* Create an asynchronous API producer that runs locally.\r* Create a simple model to update your Subscribers with new information.\r* Have the asynchronous API producer send the payload to an endpoint.\r* Use a webhook to test your asynchronous API producer."
+    },
+    "settingTheJavaPath": {
+        "dev": "## Setting the Path for Java\r\rUse the following tutorial to set the path variable if you have not done that already: <https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux>.",
+        "qat": "## Setting the Path for Java\r\rUse the following tutorial to set the path variable if you have not done that already: <https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux>.",
+        "demo": "## Setting the Path for Java\r\rUse the following tutorial to set the path variable if you have not done that already: <https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux>.",
+        "prod": "## Setting the Path for Java\r\rUse the following tutorial to set the path variable if you have not done that already: <https://www.geeksforgeeks.org/how-to-set-java-path-in-windows-and-linux>."
+    }
+}

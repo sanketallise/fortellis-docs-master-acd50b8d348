@@ -1,0 +1,9 @@
+{
+    "order": [
+        "creating-api-specs.md",
+        "vs-code-extension.md",
+        "linting-api-specs.md",
+        "spec-publishing-rules.md",
+        "publishing-specs.md"
+    ]
+}

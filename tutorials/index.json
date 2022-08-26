@@ -1,0 +1,13 @@
+{
+    "order": [
+        { "route": "overview", "label": "Developer Tutorials" },
+        { "route": "solution-integration", "label": "Authorization on Fortellis" },
+        { "route": "api-lifecycle", "label": "API Lifecycle" },
+        {"route": "spec-writing", "label": "Creating API Specs"},
+        {"route": "admin-api", "label": "Admin API"},
+        {"route": "api-toolbox", "label": "API Developer Toolbox"},
+        {"route": "app-lifecycle", "label": "App Lifecycle"},
+        {"route": "app-toolbox", "label": "App Developer Toolbox"},
+        {"route": "event-relay", "label": "Event Relay"}
+    ]
+}

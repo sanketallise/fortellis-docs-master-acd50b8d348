@@ -1,0 +1,16 @@
+{
+    "order": [
+        "create-an-app.md",
+        "consuming-an-api.md",
+        "using-the-subscriptions-endpoint.md",
+        "implicit-authentication-tutorial.md",
+        "python-implicit-authentication-tutorial.md",
+        "java-implicit-authorization-flow-tutorial.md",
+        "authorization-code-flow-tutorial.md",
+        "authorization-code-flow-tutorial-python.md",
+        "authorization-code-flow-tutorial-java.md",
+        "client-credentials-authentication.md",
+        "client-credentials-flow-tutorial-python.md",
+        "client-credentials-flow-java.md"        
+    ]
+}

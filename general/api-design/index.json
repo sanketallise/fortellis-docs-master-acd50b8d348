@@ -1,0 +1,13 @@
+{
+    "order": [
+        "designing-apis.md",
+        "api-spec-introduction.md",
+        "api-architecture.md",
+        "restful-api-design.md",
+        "rest-design-patterns.md",
+        "rest-resource-modeling.md",
+        "api-data-schemas.md",
+        "api-versioning.md",
+        "api-change-management.md"
+    ]
+}

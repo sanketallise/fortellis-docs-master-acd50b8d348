@@ -1,0 +1,24 @@
+{
+    "order": [
+        "overview-event-relay.md",
+        "features.md",
+        "concepts.md",
+        "using-event-relay.md",
+        "tutorial-design-an-async-api.md",
+        "tutorial-develop-an-async-api.md",
+        "tutorial-develop-an-async-api-python.md",
+        "tutorial-develop-an-async-api-java.md",
+        "publishing-messages-and-verifying-results.md",
+        "publishing-messages-and-verifying-results-python.md",
+        "understanding-asyncapis.md",
+        "webhook-developer-guide.md",
+        "tutorial-integrate-an-async-api-integration-with-an-app.md",
+        "tutorial-integrate-an-async-api-integration-with-an-app-python.md",
+        "tutorial-integrate-an-async-api-integration-with-an-app-java.md",
+        "tutorial-building-an-http-callback-to-receive-messages.md",
+        "tutorial-building-an-http-callback-to-receive-messages-python.md",
+        "tutorial-building-an-http-callback-to-receive-messages-java.md",
+        "deleting-an-integration.md",
+        "references.md"
+        ]
+}

@@ -1,0 +1,190 @@
+swagger: "2.0"
+info:
+  version: "22.0.0"
+  title: Fortellis Spec
+  description: |
+    # Testing Spec 2 - Service - Testing 2
+    Provide a good description
+    # What does this API do? 
+    This API provides a basic spec that should pass the Fortellis linter
+    # Intended Audience
+    The audience for this spec is someone that needs a basic spec to get started that passes the linter.
+  contact: 
+    name: Developer Evangelists
+    url: https://fortellis.io/contact-us
+    email: support@fortellis.io
+  license: 
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+host: api.fortellis.io
+basePath: /documents/sessions/v22
+schemes:
+  - https
+securityDefinitions: 
+  permission-model: 
+    type: oauth2
+    flow: implicit
+    authorizationUrl: https://identity.fortellis.io/oauth2/
+    scopes: 
+      anonymous: State what information the API gives you permissions to
+paths:
+  /car-inventory:
+    get: 
+      summary: Use this endpoint to get a list of all the cars in inventory for every store in the API.
+      description: You can get all the cars in inventory at this endpoint.
+      operationId: 50M30P3R4T10N
+      parameters: 
+        - $ref: "#/parameters/header.Request-Id"
+      consumes: 
+        - application/json
+      produces: 
+        - application/json
+      tags: 
+        - inventory
+      responses: 
+        "200":
+          $ref: "#/responses/RequestAllVehicles"
+        "400":
+          $ref: "#/responses/BadRequest"
+parameters:
+  header.Request-Id: 
+    name: Request-Id
+    in: header
+    required: true
+    type: string
+    description: We use the Request-Id to track the same request across system boundaries.
+definitions:
+  Error:
+    description: This is the description of the error that you are getting.
+    required:
+      - code
+      - message
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
+    example:
+      code: 400
+      message: Bad Request
+  CarInventory:
+    type: object
+    description: This shows the inventory for a given set of dealerships.
+    properties: 
+      dealerGroupName: 
+        type: string
+        title: The Dealer Group Name
+        description: This is the name of the dealer group that makes it easier for a person to look for the dealership group.
+        default: ""
+      dealerships:
+        type: array
+        title: The Dealerships Schema
+        description: An explanation about the purpose of this instance.
+        default: []
+        items:
+          type: object
+          title: The Items Schema
+          description: An explanation about the purpose of this instance.
+          default: {}
+          required:
+            - city
+            - state
+            - name
+            - inventory
+          properties:
+            city:
+              type: string
+              title: The City Schema
+              description: An explanation about the purpose of this instance.
+              default: ''
+            state:
+              type: string
+              title: The State Schema
+              description: An explanation about the purpose of this instance.
+              default: ''
+            name:
+              type: string
+              title: The Name Schema
+              description: An explanation about the purpose of this instance.
+              default: ''
+            inventory:
+              type: object
+              title: The Inventory Schema
+              description: An explanation about the purpose of this instance.
+              default: {}
+              required:
+                - cars
+                - trucks
+              properties:
+                cars:
+                  type: array
+                  title: The Cars Schema
+                  description: An explanation about the purpose of this instance.
+                  default: []
+                  items:
+                    type: object
+                    title: The Items Schema
+                    description: An explanation about the purpose of this instance.
+                    default: {}
+                trucks:
+                  type: array
+                  title: The Trucks Schema
+                  description: An explanation about the purpose of this instance.
+                  default: []
+                  items:
+                    type: object
+                    title: The Items Schema
+                    description: An explanation about the purpose of this instance.
+                    default: {}          
+    required: 
+      - dealerships
+    example:
+      dealerGroupName: CDK Dealer Group
+      dealerships:
+        - city: Chicago
+          state: Illinois
+          name: Chicago Chevy
+          inventory:
+            cars:
+              - make: Chevy
+                model: Nova
+                color: green
+                year: '2020'
+                price: 3000
+                financingAvailable: true
+              - make: Chevy
+                model: Camaro Z28
+                color: Black
+                year: '1979'
+                price: 1500
+                financingAvailable: true
+            trucks:
+              - make: Chevy
+                model: Silverado
+                color: black
+                year: '2018'
+                price: 30000
+                financingAvailable: true
+              - make: Chevy
+                model: Canyon
+                color: yellow
+                year: '2020'
+                price: 100000
+                financingAvailable: false
+      
+responses:
+  RequestAllVehicles: 
+    description: Use this response to return all of the vehicles in inventory at all stores.
+    headers: 
+      Request-Id: 
+        type: string
+    schema: 
+      $ref: "#/definitions/CarInventory"
+  BadRequest:
+    description: This tells you that you sent a bad request.
+    headers: 
+      Request-Id:
+        type: string
+    schema:
+      $ref: "#/definitions/Error"

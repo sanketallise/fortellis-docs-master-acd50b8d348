@@ -1,0 +1,17 @@
+{
+   "general": {
+      "label": "Fortellis Ecosystem",
+      "description": "Discover how Fortellis empowers your organization by connecting API and App Developers with consumers using a common, collaborative platform.",
+      "buttonText":"DEVELOPING ON FORTELLIS"
+   },
+   "tutorials": {
+      "label": "Developer Tutorials",
+      "description": "Learn how to create APIs and Apps for the Fortellis platform, how to monetize them on Fortellis, and how to monitor their performance.",
+      "buttonText":"API AND APP TUTORIALS"
+   },
+   "marketplace": {
+      "label": "Marketplace for Apps",
+      "description": "Find Fortellis apps in Marketplace and learn how to evaluate and subscribe to them, and how to monitor their usage by dealership.",
+      "buttonText" : "APP BUYERS MARKETPLACE"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "order": [
+      "marketplace-for-app-buyers.md",
+      "connectcdk-account.md",
+      "activating-apps.md",
+      "activating-private-apps.md",
+      "managing-app-configurations.md",
+      "troubleshooting-app-integrations.md"
+   ]
+}

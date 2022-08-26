@@ -1,0 +1,12 @@
+{
+    "order": [
+        { "route": "ecosystem", "label": "The Fortellis Platform" },
+        { "route": "overview", "label": "The Developer Network" },
+        { "route": "making-calls", "label": "Making API Calls" },
+        { "route": "api-developers", "label": "API Development Overview" },
+        { "route": "api-design", "label": "API Design" },
+        { "route": "app-developers", "label": "App Development Overview" },
+        { "route": "public-apis-apps", "label": "Public APIs & Apps" },
+        { "route": "fortellis-updates", "label": "Fortellis Updates" }
+    ]
+}

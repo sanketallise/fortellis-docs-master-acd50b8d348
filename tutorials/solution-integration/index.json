@@ -1,0 +1,16 @@
+{
+    "order": [
+        "auth.md",
+        "app-oauth-credentials.md",
+        "renewing-credentials.md",
+        "client-credentials-flow.md",
+        "implicit-flow.md",
+        "authorization-code-flow.md",
+        "admin-api-authorization.md",
+        "fortellis-oauth-config.md",
+        "external-oauth-config.md",
+        "custom-oauth-config.md",
+        "key-secret-oauth-config.md",
+        "development.md"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "order": [
+        "app-lifecycle.md",
+        "registering-apps.md",
+        "managing-apps.md",
+        "sharing-private-apps.md",
+        "listing-apps.md",
+        "app-submission-form.md",
+        "app-terms-and-pricing-plans.md",
+        "manual-app-activation.md",
+        "app-metrics.md",
+        "managing-app-activations.md",
+        "canceling-app-activations.md",
+        "service-connect.md",
+        "app-status.md"
+    ]
+}

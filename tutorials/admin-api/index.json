@@ -1,0 +1,13 @@
+{
+    "order": [
+        "admin-api-overview.md",
+        "creating-the-base-path.md",
+        "admin-api-specs.md",
+        "fortellis-connection-callback.md",
+        "admin-api-testing.md",
+        "admin-api-tutorial.md",
+        "admin-api-tutorial-in-python.md",
+        "admin-api-tutorial-in-java.md",
+        "no-admin-api.md"
+    ]
+}

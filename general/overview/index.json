@@ -1,0 +1,12 @@
+{
+    "order": [
+        "getting-started.md",
+        "account-mgmt.md",
+        "organizations.md",
+        "managing-organizations.md",
+        "creating-apis-apps.md",
+        "public-vs-private-apis-apps.md",
+        "fortellis-notifications.md",
+        "supported-browsers.md"
+    ]
+}
